@@ -29,7 +29,9 @@ pip3 install <name>
 ---
 
 ## 🧑‍💻 Usage
-Literally run the `main.py`:
+Clone or download the repository
+
+Run the script `main.py`:
 
 for Python 2.x or below:
 ```bash
@@ -65,11 +67,11 @@ All figures displayed in the GUI can be saved locally by clicking the **Save Fig
 
 ---
 
-## 💡 Notes
+## 💡 Notes
 - This Python project was built and tested under the Python versions `3.11` and `3.12` **only**
 - This project was only tested with macOS 26 (Tahoe), glitches on other operating systems might happen
 
 ---
 
-## 📝 Known Issues
+## 📝 Known Issues
 - The save figure function for heatmap does not work with the current version
