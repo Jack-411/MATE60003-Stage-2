@@ -1,6 +1,6 @@
 # 📦 MATE60003 Stage 2 Data Visualiser Guide
 
-A compact python project that analyses the simulation (COMSOL Multiphysics) and tested data that:
+A compact Python project that analyses the simulation (COMSOL Multiphysics) and tested data that:
 - Visualises all data in plots
 - Uses Gaussian Blur to create the heatmap
 - Audio analyses
@@ -75,3 +75,19 @@ All figures displayed in the GUI can be saved locally by clicking the **Save Fig
 
 ## 📝 Known Issues
 - The save figure function for heatmap does not work with the current version
+
+---
+
+## 🧭 Troubleshooting
+- Make sure all site packages are successfully installed in the desired Python environment
+- The cache clearing functions are only tested on macOS, if related errors occur, comment out the lines in `main.py`:
+```bash
+SystemCtrl.clear_pycache()
+sys.exit(0)
+```
+to:
+```bash
+# SystemCtrl.clear_pycache()
+# sys.exit(0)
+```
+- For any other questions or comments, please contact the owner (first in contributor) or raise in this repository.
